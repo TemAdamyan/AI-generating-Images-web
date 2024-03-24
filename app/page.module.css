@@ -1,0 +1,193 @@
+.content{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contenttitle{
+  margin-top: 56px;
+  font-size: 36px;
+}
+
+.contenttext{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px !important;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.contentbutton{
+  background-color: #868484;
+  padding: 15px 55px;
+  border-radius: 20px;
+  border: 1px solid #868484;
+  margin-top: 36px;
+}
+
+.header{
+  background-color: rgb(0, 0, 0);
+}
+
+.logoimg{
+  margin: 15px;
+  border-radius: 40px;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(255, 255, 255);
+   height: 100%;
+   width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+
+.sitebar,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.regenerationBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  width: 250px;
+  padding: 30px;
+}
+
+.button {
+  margin: 10px;
+  padding: 20px;
+  aspect-ratio: 1;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.cell {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+}
+
+.cellSelected {
+  background-color: #060606;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  color: #ffffff;
+}
+
+.cell:hover {
+  background-color: #000000;
+  color: white;
+
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: row;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  border: 2px solid #000000;
+  background-color: #858585;
+}
+
+.button2 {
+  width: 200px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.button2:hover {
+  background-color: #000000;
+  color: white;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+#username , #password , #fullname , #gender , #birthdate , #country , #number , #email {
+   padding: 10px;
+   margin: 10px;
+   width: 200px;
+   background-color: #ffffff;
+   border: 1px solid #000000;
+   border-radius: 5px;
+}
+
+
+.button3 {
+  width: 100px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.button3:hover {
+  background-color: #000000;
+  color: white;
+
+}
+
+.profilepic {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.imgs{
+   object-fit: cover;
+}
+
+.inputtext {
+  width: 350px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.inputtext:hover{
+  background-color: #000000;
+  color: white;
+}
